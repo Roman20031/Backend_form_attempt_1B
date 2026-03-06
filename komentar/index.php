@@ -91,16 +91,10 @@ $result = $conn->query("SELECT * FROM komentare ORDER BY datum DESC");
 
 <?php $conn->close(); ?>
 
-<!--http://localhost/MAMP/Backend_form_attempt_1B/komentar/index.php-->
-<!--http://localhost/Backend_form_attempt_1B/komentar/index.php-->
-<!--http://localhost/-->
-
 <!--Souerces
 https://chatgpt.com/
 https://chatgpt.com/c/699f6d5f-c3d8-832b-a63a-93ae12daae23
 https://www.youtube.com/watch?v=lWa1Ssa7p_A
-
-
 
 
 -->
