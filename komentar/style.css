@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.wrapper {
+    width: 600px;
+}
+
+.form-box {
+    background: white;
+    padding: 25px;
+    border: 2px solid black;
+    margin-bottom: 40px;
+}
+
+.form-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+label {
+    width: 150px;
+    font-weight: bold;
+}
+
+input, textarea {
+    flex: 1;
+    padding: 8px;
+    border: 2px solid black;
+    font-size: 14px;
+}
+
+textarea {
+    height: 80px;
+    resize: none;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: 2px solid black;
+    background: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #ddd;
+}
+
+.comments-section {
+    margin-top: 20px;
+}
+
+.comment {
+    background: white;
+    border: 2px solid black;
+    padding: 15px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.comment-name {
+    display: inline-block;
+    border: 2px solid black;
+    padding: 3px 8px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.comment-text {
+    margin-bottom: 10px;
+}
+
+.comment-time {
+    font-size: 12px;
+    text-align: right;
+}
